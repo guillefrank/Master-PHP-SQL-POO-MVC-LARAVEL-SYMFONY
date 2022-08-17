@@ -46,11 +46,11 @@ if (isset($_POST['n1']) && isset($_POST['n2'])) {
         <input type="number" name="n2" /><br />
         <hr />
 
-        <input type="submit" value="Sumar" name="sumar" />
-        <input type="submit" value="Restar" name="restar" />
-        <input type="submit" value="Multiplicar" name="multiplicar" />
-        <input type="submit" value="Dividir" name="dividir" />
-
+        <input type="submit" value="Sumar" name="sumar" style="background-color:aquamarine" />
+        <input type="submit" value="Restar" name="restar" style="background-color:aquamarine" />
+        <input type="submit" value="Multiplicar" name="multiplicar" style="background-color:aquamarine" />
+        <input type="submit" value="Dividir" name="dividir" style="background-color:aquamarine" />
+        <input type="text">
     </form>
     <?php 
     //RESULTADO

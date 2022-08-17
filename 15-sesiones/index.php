@@ -7,7 +7,7 @@ navegador.
 // Inicar la sesion
 session_start();
 //variable local
-$variable_normal="Soy una cadena de texto";
+$variable_normal="Soy guille";
 //variable de sesion
 $_SESSION['variable_persistente']="Hola soy una sesion activa";
 

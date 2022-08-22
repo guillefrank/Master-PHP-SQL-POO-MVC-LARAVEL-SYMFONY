@@ -48,3 +48,11 @@ SELECT * FROM usuarios WHERE (YEAR(fecha)%2 = 0);
 # 5. Sacar todos los registro de la tabla usuarios cuyo nombre tenga más de
 #    5 letras y que se hayan registrado antes de 2020, y mostrar el nombre en mayus
 SELECT UPPER(nombre) AS 'Nombre', apellidos FROM usuarios WHERE LENGTH(nombre) > 5 AND YEAR(FECHA) < 2020;
+
+# ORDER BY ASC [ordena ascendentemente]#
+
+# ORDER BY DESC [ordena ascendentemente]#
+#Clausula LIMIT [N]  N: numero de filas que quiero que traiga#
+
+SELECT * FROM usuarios LIMIT 1;
+SELECT * FROM usuarios LIMIT 0,3; #Trae los primero 3 elementos#
